@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>adaptive-font-padding-margin</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220912194523">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<main class="page">
+			<div class="page__container">
+				<div class="page__row row">
+					<h1 class="page__title title">Адаптивный размер текста: от '20px' до '14px'</h1>
+					<p class="page__text text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, sit. Quibusdam, modi! Fugiat id perspiciatis doloremque ex, impedit iusto quos dolor quisquam consequatur amet nesciunt corrupti aut, iure non? Eum.
+					</p>
+					<!-- <xmp>
+						@supports (font-size: clamp( 0.875rem , 0.7628504673rem + 0.5607476636vw , 1.25rem )) {
+						.text {
+						font-size: clamp( 0.875rem , 0.7628504673rem + 0.5607476636vw , 1.25rem );
+						}
+						}
+	
+						@supports not (font-size: clamp( 0.875rem , 0.7628504673rem + 0.5607476636vw , 1.25rem )) {
+						.text {
+						font-size: calc(0.875rem + 0.375 * (100vw - 20rem) / 66.875);
+						}
+						}
+					</xmp> -->
+				</div>
+				<div class="page__row row">
+					<h1 class="page__title title">Адаптивный внешний отступ: от '40px' до '5px'</h1>
+					<div class="page__margin margin">
+						<p class="page__text text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, officiis dolore a laborum corrupti neque voluptates, delectus nulla consectetur temporibus fugiat distinctio voluptatum asperiores, dolorum odit enim iste impedit nam!
+						</p>
+					</div>
+					<!-- <xmp>
+						@supports (margin: clamp( 0.3125rem , -0.3417056075rem + 3.2710280374vw , 2.5rem )) {
+						.margin {
+						margin: clamp( 0.3125rem , -0.3417056075rem + 3.2710280374vw , 2.5rem );
+						}
+						}
+	
+						@supports not (margin: clamp( 0.3125rem , -0.3417056075rem + 3.2710280374vw , 2.5rem )) {
+						.margin {
+						margin: calc(0.3125rem + 2.1875 * (100vw - 20rem) / 66.875);
+						}
+						}
+					</xmp> -->
+				</div>
+				<div class="page__row row">
+					<h1 class="page__title title">Адаптивный внутренний отступ от '40px' до '5px'</h1>
+					<div class="page__padding padding">
+						<p class="page__text text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, labore ipsam eum eaque ducimus autem nam earum quos maxime, voluptatum explicabo, accusamus ullam! Nulla saepe inventore similique accusantium exercitationem.
+						</p>
+					</div>
+					<!-- <xmp>
+						@supports (padding: clamp( 0.3125rem , -0.3417056075rem + 3.2710280374vw , 2.5rem )) {
+						.padding {
+						padding: clamp( 0.3125rem , -0.3417056075rem + 3.2710280374vw , 2.5rem );
+						}
+						}
+	
+						@supports not (padding: clamp( 0.3125rem , -0.3417056075rem + 3.2710280374vw , 2.5rem )) {
+						.padding {
+						padding: calc(0.3125rem + 2.1875 * (100vw - 20rem) / 66.875);
+						}
+						}
+					</xmp> -->
+				</div>
+			</div>
+		</main>
+
+	</div>
+
+	<script src="js/app.min.js?_v=20220912194523"></script>
+</body>
+
+</html>
